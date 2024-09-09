@@ -15,7 +15,7 @@ const Navbar = () => {
             <li onClick={() => {setMenu("mobile-app")}} className={menu === "mobile-app" ? "active": ""}>Mobile-app</li>
             <li onClick={() => {setMenu("contact-us")}} className={menu === "contact-us" ? "active": ""}>Contact us</li>
         </ul>
-        <div class="navbar-right">
+        <div className="navbar-right">
             <img src={assets.search_icon} alt="search icon" className='' />
             <div className="navbar-search-icon">
                 <img src={assets.basket_icon} alt="bascet" />
